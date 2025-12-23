@@ -6,8 +6,15 @@
 	objectVersion = 77;
 	objects = {
 
+/* Begin PBXBuildFile section */
+		ECC131312EFACD860060EA87 /* PixabayEntity+CoreDataProperties.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECC131302EFACD860060EA87 /* PixabayEntity+CoreDataProperties.swift */; };
+		ECC131322EFACD860060EA87 /* PixabayEntity+CoreDataClass.swift in Sources */ = {isa = PBXBuildFile; fileRef = ECC1312F2EFACD860060EA87 /* PixabayEntity+CoreDataClass.swift */; };
+/* End PBXBuildFile section */
+
 /* Begin PBXFileReference section */
 		1FDCC5D32EF9DB8100C6C869 /* pixabay.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = pixabay.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		ECC1312F2EFACD860060EA87 /* PixabayEntity+CoreDataClass.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "PixabayEntity+CoreDataClass.swift"; sourceTree = "<group>"; };
+		ECC131302EFACD860060EA87 /* PixabayEntity+CoreDataProperties.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "PixabayEntity+CoreDataProperties.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFileSystemSynchronizedRootGroup section */
@@ -32,6 +39,8 @@
 		1FDCC5CA2EF9DB8100C6C869 = {
 			isa = PBXGroup;
 			children = (
+				ECC1312F2EFACD860060EA87 /* PixabayEntity+CoreDataClass.swift */,
+				ECC131302EFACD860060EA87 /* PixabayEntity+CoreDataProperties.swift */,
 				1FDCC5D52EF9DB8100C6C869 /* pixabay */,
 				1FDCC5D42EF9DB8100C6C869 /* Products */,
 			);
@@ -119,6 +128,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				ECC131312EFACD860060EA87 /* PixabayEntity+CoreDataProperties.swift in Sources */,
+				ECC131322EFACD860060EA87 /* PixabayEntity+CoreDataClass.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
